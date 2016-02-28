@@ -2,7 +2,8 @@
 Source RCON Protocol
 
 # Example Command Line App
-```using System;
+```
+using System;
 
 namespace RCONTest
 {
@@ -25,4 +26,5 @@ namespace RCONTest
             Console.ReadKey();
         }
     }
-}```
+}
+```
