@@ -16,8 +16,8 @@ namespace RCONTest
             Console.WriteLine("Authenticated: {0} ", RCON.Authenticate());
             if (RCON.Authenticated)
             {
-                Console.WriteLine("-Send Command list Players:\n{0}", RCON.SendCommand("Status"));
-                Console.WriteLine("-Send Command list Players:\n{0}", RCON.SendCommand("ListPlayers"));
+                Console.WriteLine("-Send Command Status:\n{0}", RCON.SendCommand("Status"));
+                Console.WriteLine("-Send Command List Players:\n{0}", RCON.SendCommand("ListPlayers"));
                 Console.WriteLine("-Send Command GetChat:\n{0}", RCON.SendCommand("GetChat"));
             }
 
